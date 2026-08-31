@@ -11,6 +11,8 @@ body {
 }
 
 .cajaprincipal {
+    gap: 20px;
+    display: flex;
     width: 82%;
     margin: 40px auto;
     padding: 30px;
@@ -21,6 +23,7 @@ body {
 }
 
 .caja {
+    gap: 20px;
     width: 100%;
     padding: 26px 28px;
     margin-bottom: 24px;
@@ -30,6 +33,7 @@ body {
 }
 
 .caja1 {
+    gap: 20px;
     background: #edf5ff;
 }
 
@@ -39,6 +43,7 @@ body {
 
 .caja3,
 .caja4 {
+    gap: 20px;
     width: 100%;
     padding: 10px 0;
 }
@@ -50,6 +55,7 @@ h2 {
 }
 
 label {
+    gap: 20px;
     display: block;
     margin: 14px 0 8px;
     color: #1d3250;
@@ -57,6 +63,7 @@ label {
 }
 
 input {
+    gap: 20px;
     width: 100%;
     padding: 14px 16px;
     margin-bottom: 8px;

@@ -29,7 +29,7 @@ function registrar() {
         }
 
         if (existe == true) {
-            alert("Ese teléfono ya está registrado.");
+            alert("Ese teléfono ya está registrado.");0
         } else {
             nombres.push(nombre);
             apellidos.push(apellido);

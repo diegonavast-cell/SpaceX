@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
-    <script src="Codigo.js"></script>
     <title>SpaceX</title>
 </head>
 <body>
@@ -14,15 +13,18 @@
                 <h2>Registro</h2>
 
                 <label>Nombre</label>
-                <input type="text" placeholder="Ingresa tu nombre">
+                <input id="nombre" type="text" placeholder="Ingresa tu nombre">
+
+                <label>Apellido</label>
+                <input id="apellido" type="text" placeholder="Ingresa tu apellido">
 
                 <label>Numero de telefono</label>
-                <input type="text" placeholder="Ingresa tu numero de telefono">
+                <input id="telefonoRegistro" type="text" placeholder="Ingresa tu numero de telefono">
 
                 <label>Contraseña</label>
-                <input type="password" placeholder="Crea una contraseña">
+                <input id="contraseñaRegistro" type="password" placeholder="Crea una contraseña">
 
-                <button>Registrarse</button>
+                <button onclick="registrar()">Registrarse</button>
             </div>
         </div>
 
@@ -30,15 +32,17 @@
             <div class="caja4">
                 <h2>Iniciar sesión</h2>
 
-                <label>Usuario</label>
-                <input type="text" placeholder="Tu usuario">
+                <label>Telefono</label>
+                <input id="telefono" type="text" placeholder="Tu telefono">
 
                 <label>Contraseña</label>
-                <input type="password" placeholder="Tu contraseña">
+                <input id="contraseña" type="password" placeholder="Tu contraseña">
 
-                <button>Iniciar sesión</button>
+                <button onclick="iniciarSesion()">Iniciar sesión</button>
             </div>
         </div>
     </div>
+
+    <script src="Codigo.js"></script>
 </body>
 </html>

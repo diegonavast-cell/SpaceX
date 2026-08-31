@@ -3,9 +3,9 @@
 }
 
 body {
-    min-height: 100vh;
+    
     padding: 40px 20px;
-    background: #071a2b;
+    background: #ffffff;
     font-family: Arial, sans-serif;
     color: #eaf3ff;
 }
@@ -38,11 +38,17 @@ body {
 }
 
 .caja2 {
-    background: #edfdf6;
+    background: #edf5ff;
 }
 
-.caja3,
+.caja3{
+    gap: 20px;
+    width: 100%;
+    padding: 10px 0;
+}
+
 .caja4 {
+
     gap: 20px;
     width: 100%;
     padding: 10px 0;
@@ -75,7 +81,7 @@ input {
 }
 
 button {
-    display: inline-block;
+    
     width: 190px;
     margin-top: 20px;
     padding: 14px 18px;

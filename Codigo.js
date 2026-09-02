@@ -68,7 +68,7 @@ function iniciarSesion() {
 
         if (encontrado == true) {
             alert("Inicio de sesión correcto");
-            window.location.replace("file:///C:/Users/Computadrora%2010/Desktop/SpaceX/MiCarrera.html");
+            window.location.replace("MiCarrera.html");
         } else {
             alert("El número de teléfono o la contraseña son incorrectos.");
         }

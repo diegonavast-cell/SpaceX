@@ -1,6 +1,5 @@
- function confirmarCierreSesion() {
-    let respuesta = confirm("¿Estás seguro de cerrar sesión?");
-    if (respuesta) {
-      window.location.replace("file:///C:/Users/Computadrora%2010/Desktop/SpaceX/Index.html"); 
-    }
-  }
+
+function volver(){
+  alert ("Volviendo a Mi carrera..")
+  window.location.replace("file:///C:/Users/Computadrora%2010/Desktop/SpaceX/MiCarrera.html")
+}

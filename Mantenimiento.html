@@ -1,11 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Telecomunicacion.js"></script>
     <title>SpaceX</title>
+    <link rel="stylesheet" href="Mantenimiento.css">
+    <script src="Mantenimiento.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src=""></script>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Mantenimiento.html">Mantenimiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="Telecomunicaciones.html">Telecomunicaciones</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" onsubmit="event.preventDefault();">
+                    <button id="btnCerrarSesion" class="btn btn-outline-success" type="button"
+                        onclick="confirmarCierreSesion()">Cerrar sesion</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h1>Mantenimiento Informático</h1>
+    <p>El mantenimiento informático es el conjunto de medidas y acciones preventivas o correctivas que se aplican a los
+        sistemas de cómputo para garantizar su óptimo rendimiento, prevenir fallos y prolongar la vida útil tanto del
+        hardware como del software.</p>
+
+    <h2>1. Mantenimiento de Hardware</h2>
+    <p>Se enfoca en la parte física de los equipos informáticos. Su objetivo es limpiar, ajustar y verificar las piezas
+        tangibles de la computadora.</p>
+
+    <h3>¿Sobre qué se aplica?</h3>
+    <p>Se realiza directamente sobre los componentes físicos, tales como:</p>
+    <ul>
+        <li>Placa madre (Motherboard) y procesador.</li>
+        <li>Memorias RAM y discos de almacenamiento (HDD y SSD).</li>
+        <li>Fuente de poder y ventiladores/disipadores.</li>
+        <li>Periféricos: teclado, mouse, monitor e impresoras.</li>
+    </ul>
+
+    <h3>¿Cómo se realiza y qué se utiliza?</h3>
+    <p>Se ejecutan limpiezas periódicas para evitar el sobrecalentamiento y fallos mecánicos. Para ello se utilizan las
+        siguientes herramientas y productos:</p>
+    <ul>
+        <li><strong>Aire comprimido o sopladora:</strong> Para remover el polvo acumulado en ranuras y ventiladores.
+        </li>
+        <li><strong>Alcohol isopropílico:</strong> Para limpiar contactos electrónicos sin dejar residuos ni generar
+            cortocircuitos.</li>
+        <li><strong>Pasta térmica:</strong> Se renueva entre el procesador y el disipador para mejorar la transferencia
+            de calor.</li>
+        <li><strong>Herramientas físicas:</strong> Destornilladores de precisión, pulsera antiestática y brochas de
+            cerdas suaves.</li>
+    </ul>
+
+    <h2>2. Mantenimiento de Software</h2>
+    <p>Se encarga del aspecto lógico del sistema. Busca mantener los programas, el sistema operativo y los datos
+        organizados, actualizados y protegidos contra amenazas.</p>
+
+    <h3>¿Sobre qué se aplica?</h3>
+    <p>Se trabaja directamente sobre las aplicaciones y datos del sistema:</p>
+    <ul>
+        <li>Sistema operativo (Windows, macOS, Linux).</li>
+        <li>Controladores o drivers de dispositivos.</li>
+        <li>Bases de datos y registros del sistema.</li>
+        <li>Programas de usuario y archivos almacenados.</li>
+    </ul>
+
+    <h3>¿Cómo se realiza y qué se utiliza?</h3>
+    <p>Se realizan tareas de optimización y seguridad mediante herramientas lógicas:</p>
+    <ul>
+        <li><strong>Antivirus y antimalware:</strong> Para escanear, detectar y eliminar software malicioso.</li>
+        <li><strong>Desfragmentadores e inspección de disco:</strong> Herramientas como Chkdsk o desfragmentadores de
+            disco para ordenar la información y corregir sectores dañados en HDDs.</li>
+        <li><strong>Limpiadores del sistema:</strong> Aplicaciones para borrar archivos temporales, caché y entradas
+            obsoletas del registro.</li>
+        <li><strong>Sistemas de actualización:</strong> Herramientas nativas del sistema operativo para aplicar parches
+            de seguridad.</li>
+        <li><strong>Software de respaldo (Backup):</strong> Para crear copias de seguridad de los datos importantes.
+        </li>
+    </ul>
+
+    <h2>3. Tipos de Mantenimiento</h2>
+    <p>El mantenimiento informático se clasifica principalmente en dos metodologías:</p>
+    <ul>
+        <li><strong>Mantenimiento Preventivo:</strong> Acciones programadas con anticipación para evitar que ocurran
+            fallos en el sistema o deterioro físico.</li>
+        <li><strong>Mantenimiento Correctivo:</strong> Reparación o reemplazo de componentes (tanto de hardware como de
+            software) cuando ya se ha presentado un error o avería.</li>
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

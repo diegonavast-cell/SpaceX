@@ -31,16 +31,6 @@ h1{
      color: #ffffff;
     font-size: 10px;
 }
-
-.caja2{
-    color: #ffffff;
-    font-size: 10px;
-}
-
-.caja2 p {
-    color: #ffffff;
-}
-
 .caja3 {
     padding: 30px 34px;
     border: 1px solid #d5e1ee;
@@ -185,4 +175,14 @@ tbody tr:nth-child(even) {
 
 .Colorcarrusel {
     color: #0000;
+}
+.caja2{
+    padding: 26px 30px;
+    border: 1px solid #d9e2ec;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 12px 28px #102a43;
+    font-style: italic;
+    color: #0000;
+    width: 100%;
 }

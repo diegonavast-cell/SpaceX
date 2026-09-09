@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Progra.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Mi Carrera</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="MiCarrera.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Mantenimiento.html">Mantenimiento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Telecomunicaciones.html">Telecomunicaciones</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active" aria-current="page" href="Progra.html">Programacion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="diseñoweb.html">Diseño web</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="ELECTRONICA.HTML">Electronica</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search" onsubmit="event.preventDefault();">
+        <button id="btnCerrarSesion" class="btn btn-outline-success" type="button" onclick="confirmarCierreSesion()">Cerrar sesion</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <br>
+
+    <div class="caja1">
+        <h1>Programación en una Carrera Técnica</h1>
+        <div class="caja2">
+            <p>Una Carrera Técnica en Programación (o Desarrollo de Software) es un programa académico práctico y de corta duración (usualmente de 1 a 3 años) enfocado en enseñar el diseño, la creación, la prueba y el mantenimiento de aplicaciones, sitios web y sistemas informáticos.
+                <br>
+                Está diseñada para una rápida inserción en el mercado laboral informático.</p>
+        </div>
+    </div>
+
+    <div class="caja3">
+        <h3>¿Qué se aprende en esta carrera?</h3>
+        <p>La formación combina fundamentos teóricos indispensables con un alto porcentaje de práctica orientada a proyectos reales.</p>
+        <div class="lista1">
+            <ul>
+                <li>
+                    <p><b>Fundamentos de Lógica y Algoritmos:</b> Desarrollo del pensamiento lógico para estructurar soluciones mediante diagramas de flujo y pseudocódigo.</p>
+                </li>
+                <li>
+                    <p><b>Lenguajes de Programación</b>
+                        <ul>
+                            <li>Para desarrollo web: HTML5, CSS3, JavaScript.</li>
+                            <li>Para software y backend: Python, Java, C#, PHP.</li>
+                        </ul></p>
+                </li>
+                <li>
+                    <p><b>Bases de Datos:</b> Diseño, consulta y administración de datos relacionales (MySQL, PostgreSQL) y no relacionales (MongoDB).</p>
+                </li>
+                <li>
+                    <p><b>Desarrollo Web y Móvil:</b> Creación de aplicaciones interactivas, interfaces de usuario y servicios web (APIs).</p>
+                </li>
+                <li>
+                    <b>Ingeniería de Software:</b> Metodologías ágiles (Scrum, Kanban), uso de control de versiones con Git/GitHub y calidad de software (Testing).
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div id="carouselExampleCaptions" class="carousel slide" style="width: 700px;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://cdn.slidesharecdn.com/ss_thumbnails/fundamentosdprogramacin-240503002821-572b9f4b-thumbnail.jpg?width=640&height=640&fit=bounds" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fundamentos de programacion</h5>
+                    <p>aprendemos sobre las primeras logicas y diseños.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="https://codigoonclick.com/wp-content/uploads/2018/02/mejores-lenguajes-de-programacion-2018.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Lenguajes</h5>
+                    <p>Aprendemos sobre varios lenguajes y logicas aplicadas.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.42k9l21NKl5EhT9sEtgTgwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Base de datos</h5>
+                    <p>Aperendemos sobre listas y proghramacion orientada a objetos.</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </div>
+    <div class="caja5">
+        <h3>Perfil de Egreso y Salidas Laborales</h3>
+        <p>Al finalizar la carrera, el técnico está capacitado para incorporarse directamente a equipos de desarrollo en empresas de tecnología, agencias de marketing, corporativos o como trabajador independiente (freelance).</p>
+        <table>
+            <thead>
+                <tr>
+                <th>Rol Profesional</th>
+                <th>Descripción de Tareas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td><strong>Desarrollador Frontend Junior</strong></td>
+                <td>Diseña la interfaz visual y la experiencia interactiva con la que interactúa el usuario en sitios y apps web.</td>
+                </tr>
+                <tr>
+                <td><strong>Desarrollador Backend Junior</strong></td>
+                <td>Construye la lógica del servidor, las conexiones a bases de datos y la seguridad de las aplicaciones.</td>
+                </tr>
+                <tr>
+                <td><strong>Desarrollador Full-Stack Junior</strong></td>
+                <td>Maneja componentes tanto del cliente (frontend) como del servidor (backend).</td>
+                </tr>
+                <tr>
+                <td><strong>Tester de Software (QA)</strong></td>
+                <td>Revisa y ejecuta pruebas para garantizar que los programas funcionen sin errores antes de su lanzamiento.</td>
+                </tr>
+                <tr>
+                <td><strong>Soporte y Mantenimiento</strong></td>
+                <td>Actualiza, corrige y optimiza aplicaciones informáticas ya existentes.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="caja7">
+        <h3>Ventajas de Elegir una Carrera Técnica</h3>
+        <div class="lista1">
+            <ol>
+                <li><b>Duración Corta</b>: Permite incorporarse al mercado de trabajo en mucho menos tiempo que una licenciatura o ingeniería tradicional.</li>
+                <li><b>Alta Demanda Laboral</b>: El sector tecnológico mantiene una búsqueda constante de talento a nivel global.</li>
+                <li><b>Enfoque 100% Práctico</b>: El plan de estudio elimina materias de relleno y se enfoca directamente en las competencias que piden las empresas.</li>
+                <li><b>Flexibilidad</b>: Facilita el trabajo remoto y abre la oportunidad de colaborar para clientes o empresas de cualquier país.</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>

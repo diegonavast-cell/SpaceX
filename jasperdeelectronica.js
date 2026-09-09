@@ -1,5 +1,5 @@
 const contenedorImagen = document.getElementById("fulImgBox"),
-      imagenCompleta = document.getElementById("fulImg");
+    imagenCompleta = document.getElementById("fulImg");
 
 function mostrarImagenCompleta(urlImagen) {
     contenedorImagen.style.display = "flex";
